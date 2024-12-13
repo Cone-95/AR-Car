@@ -1,0 +1,341 @@
+
+> my-needle-engine-project@1.0.0 build:production
+> vite build -- --production
+
+Needle Engine Version: 3.51.1 Unity 6000.0.23f1, Needle Engine Integration @3.51.2
+[needle-dependencies] Adding three-mesh-bvh to the optimizeDeps.exclude array.
+WARN: License key is missing.
+vite v4.3.9 building for production...
+[needle-copy-files] - Copy engine include to /Users/nemanja/Unity Projects/Needle/Library/Needle/Sample/include
+Needle Engine version: 3.51.1
+
+Mixed async and defer script modules in /Users/nemanja/Unity Projects/Needle/Library/Needle/Sample/index.html, output script will fallback to defer. Every script, including inline ones, need to be marked as async for your output script to be async.
+transforming...
+WARN: [needle-buildpipeline] @needle-tools/gltf-build-pipeline not found in package - using latest version
+✓ 482 modules transformed.
+Generated an empty chunk: "register_types".
+rendering chunks...
+[needle-buildpipeline] 0 file(s) to process
+[needle-buildpipeline] Running command "npx --yes @needle-tools/gltf-build-pipeline@latest transform "/Users/nemanja/Unity Projects/Needle/Library/Needle/Sample/dist/assets"
+computing gzip size...
+dist/index.html                                         1.47 kB │ gzip:   0.64 kB
+dist/assets/favicon-8d99ceea.ico                       15.09 kB
+dist/assets/index-7f6e353c.css                          0.13 kB │ gzip:   0.12 kB
+dist/assets/register_types-4ed993c7.js                  0.00 kB │ gzip:   0.02 kB
+dist/assets/index-16475724.js                           2.24 kB │ gzip:   1.14 kB
+dist/assets/GLTFLoaderAnimationPointer-48c42dac.js      8.15 kB │ gzip:   2.76 kB
+dist/assets/index-d7be2e3b.js                          10.38 kB │ gzip:   2.44 kB
+dist/assets/needle-asap-efdda875.js                    29.35 kB │ gzip:   8.45 kB
+dist/assets/index-d435bc06.js                          31.15 kB │ gzip:  10.20 kB
+dist/assets/MeshBVH-68936e34.js                        40.75 kB │ gzip:  13.37 kB
+dist/assets/GenerateMeshBVHWorker-e4c53fbe.js         160.32 kB │ gzip:  53.89 kB
+dist/assets/three.module-6f29248d.js                  677.10 kB │ gzip: 174.78 kB
+dist/assets/needle-engine-7957b299.js               2,361.72 kB │ gzip: 723.40 kB
+
+(!) Some chunks are larger than 500 kBs after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+[needle-copy-files] - Copy engine include to /Users/nemanja/Unity Projects/Needle/Library/Needle/Sample/include
+[needle-copy-files] - Copy assets to dist/assets
+[needle-copy-files] - Copy include to dist/include
+[needle-buildpipeline] Waiting for postprocessing to finish...
+✓ built in 4.16s
+[needle-buildpipeline] Waiting for postprocessing to finish...
+(node:22279) ExperimentalWarning: Import assertions are not a stable feature of the JavaScript language. Avoid relying on their current behavior and syntax as those might change in a future version of Node.js.
+(Use `node --trace-warnings ...` to show where the warning was created)
+
+(node:22279) ExperimentalWarning: Importing JSON modules is an experimental feature and might change at any time
+
+info: Transforming glTF file: /Users/nemanja/Unity Projects/Needle/Library/Needle/Sample/dist/assets
+info: No "gltf" config found in needle.config.json. Using default config.
+info: No config found. Using default config.
+info: → Transform /Users/nemanja/Unity Projects/Needle/Library/Needle/Sample/dist/assets/ColorMenu (Everywhere Actions).glb
+> Resize texture to 2048x2048 (from 4096x4096)
+
+> Resize texture to 1024x1024 (from 4096x4096)
+
+> Resize texture to 512x512 (from 4096x4096)
+
+> Resize texture to 256x256 (from 4096x4096)
+
+> Resize texture to 2048x2048 (from 4096x4096)
+
+> Resize texture to 1024x1024 (from 4096x4096)
+
+> Resize texture to 512x512 (from 4096x4096)
+
+> Resize texture to 256x256 (from 4096x4096)
+
+> Resize texture to 2048x2048 (from 4096x4096)
+
+> Resize texture to 1024x1024 (from 4096x4096)
+
+> Resize texture to 512x512 (from 4096x4096)
+
+> Resize texture to 256x256 (from 4096x4096)
+
+> Resize texture to 512x512 (from 1024x1024)
+
+> Resize texture to 256x256 (from 1024x1024)
+
+> Resize texture to 512x512 (from 1024x1024)
+
+> Resize texture to 256x256 (from 1024x1024)
+
+> Resize texture to 512x512 (from 1024x1024)
+
+> Resize texture to 256x256 (from 1024x1024)
+
+> Resize texture to 512x512 (from 1024x1024)
+
+> Resize texture to 256x256 (from 1024x1024)
+
+> Resize texture to 512x512 (from 1024x1024)
+
+> Resize texture to 256x256 (from 1024x1024)
+
+> Resize texture to 512x512 (from 1024x1024)
+
+> Resize texture to 256x256 (from 1024x1024)
+
+[NEEDLE_progressive] Skipping, unsupported texture type "image/exr at 10".
+
+info: → Compressing 1.8 MB: /Users/nemanja/Unity Projects/Needle/Library/Needle/Sample/dist/assets/image_0_3934964d-55c2-5432-b99a-925ff6eaa69b.glb
+INFO: Environment variable 'NEEDLE_TOKTX' not set. Use 'NEEDLE_TOKTX' to specify the directory of the toktx installation (path/to/bin)
+info: ⇄ Writing to /Users/nemanja/Unity Projects/Needle/Library/Needle/Sample/dist/assets/image_0_3934964d-55c2-5432-b99a-925ff6eaa69b.glb
+info: ← Compressing done in 0.0 sec, 1.8 MB → 0.6 MB (GPU: 10.7 MB textures): image_0_3934964d-55c2-5432-b99a-925ff6eaa69b.glb at /Users/nemanja/Unity Projects/Needle/Library/Needle/Sample/dist/assets/image_0_3934964d-55c2-5432-b99a-925ff6eaa69b.glb
+info: → Compressing 0.2 MB: /Users/nemanja/Unity Projects/Needle/Library/Needle/Sample/dist/assets/image_1_3934964d-55c2-5432-b99a-925ff6eaa69b.glb
+info: ⇄ Writing to /Users/nemanja/Unity Projects/Needle/Library/Needle/Sample/dist/assets/image_1_3934964d-55c2-5432-b99a-925ff6eaa69b.glb
+info: ← Compressing done in 0.0 sec, 0.2 MB → 0.2 MB (GPU: 2.7 MB textures): image_1_3934964d-55c2-5432-b99a-925ff6eaa69b.glb at /Users/nemanja/Unity Projects/Needle/Library/Needle/Sample/dist/assets/image_1_3934964d-55c2-5432-b99a-925ff6eaa69b.glb
+info: → Compressing 0.0 MB: /Users/nemanja/Unity Projects/Needle/Library/Needle/Sample/dist/assets/image_2_3934964d-55c2-5432-b99a-925ff6eaa69b.glb
+info: ⇄ Writing to /Users/nemanja/Unity Projects/Needle/Library/Needle/Sample/dist/assets/image_2_3934964d-55c2-5432-b99a-925ff6eaa69b.glb
+info: ← Compressing done in 0.0 sec, 0.0 MB → 0.1 MB (GPU: 0.7 MB textures): image_2_3934964d-55c2-5432-b99a-925ff6eaa69b.glb at /Users/nemanja/Unity Projects/Needle/Library/Needle/Sample/dist/assets/image_2_3934964d-55c2-5432-b99a-925ff6eaa69b.glb
+info: → Compressing 0.0 MB: /Users/nemanja/Unity Projects/Needle/Library/Needle/Sample/dist/assets/image_3_3934964d-55c2-5432-b99a-925ff6eaa69b.glb
+info: ⇄ Writing to /Users/nemanja/Unity Projects/Needle/Library/Needle/Sample/dist/assets/image_3_3934964d-55c2-5432-b99a-925ff6eaa69b.glb
+info: ← Compressing done in 0.0 sec, 0.0 MB → 0.0 MB (GPU: 0.2 MB textures): image_3_3934964d-55c2-5432-b99a-925ff6eaa69b.glb at /Users/nemanja/Unity Projects/Needle/Library/Needle/Sample/dist/assets/image_3_3934964d-55c2-5432-b99a-925ff6eaa69b.glb
+info: → Compressing 0.0 MB: /Users/nemanja/Unity Projects/Needle/Library/Needle/Sample/dist/assets/image_4_3934964d-55c2-5432-b99a-925ff6eaa69b.glb
+info: ⇄ Writing to /Users/nemanja/Unity Projects/Needle/Library/Needle/Sample/dist/assets/image_4_3934964d-55c2-5432-b99a-925ff6eaa69b.glb
+info: ← Compressing done in 0.0 sec, 0.0 MB → 0.0 MB (GPU: 0.0 MB textures): image_4_3934964d-55c2-5432-b99a-925ff6eaa69b.glb at /Users/nemanja/Unity Projects/Needle/Library/Needle/Sample/dist/assets/image_4_3934964d-55c2-5432-b99a-925ff6eaa69b.glb
+info: → Compressing 2.0 MB: /Users/nemanja/Unity Projects/Needle/Library/Needle/Sample/dist/assets/image_0_c7d4ca72-88d2-56cc-bac5-3279c4205178.glb
+info: ⇄ Writing to /Users/nemanja/Unity Projects/Needle/Library/Needle/Sample/dist/assets/image_0_c7d4ca72-88d2-56cc-bac5-3279c4205178.glb
+info: ← Compressing done in 0.0 sec, 2.0 MB → 0.6 MB (GPU: 10.7 MB textures): image_0_c7d4ca72-88d2-56cc-bac5-3279c4205178.glb at /Users/nemanja/Unity Projects/Needle/Library/Needle/Sample/dist/assets/image_0_c7d4ca72-88d2-56cc-bac5-3279c4205178.glb
+info: → Compressing 0.3 MB: /Users/nemanja/Unity Projects/Needle/Library/Needle/Sample/dist/assets/image_1_c7d4ca72-88d2-56cc-bac5-3279c4205178.glb
+info: ⇄ Writing to /Users/nemanja/Unity Projects/Needle/Library/Needle/Sample/dist/assets/image_1_c7d4ca72-88d2-56cc-bac5-3279c4205178.glb
+info: ← Compressing done in 0.0 sec, 0.3 MB → 0.2 MB (GPU: 2.7 MB textures): image_1_c7d4ca72-88d2-56cc-bac5-3279c4205178.glb at /Users/nemanja/Unity Projects/Needle/Library/Needle/Sample/dist/assets/image_1_c7d4ca72-88d2-56cc-bac5-3279c4205178.glb
+info: → Compressing 0.1 MB: /Users/nemanja/Unity Projects/Needle/Library/Needle/Sample/dist/assets/image_2_c7d4ca72-88d2-56cc-bac5-3279c4205178.glb
+info: ⇄ Writing to /Users/nemanja/Unity Projects/Needle/Library/Needle/Sample/dist/assets/image_2_c7d4ca72-88d2-56cc-bac5-3279c4205178.glb
+info: ← Compressing done in 0.0 sec, 0.1 MB → 0.1 MB (GPU: 0.7 MB textures): image_2_c7d4ca72-88d2-56cc-bac5-3279c4205178.glb at /Users/nemanja/Unity Projects/Needle/Library/Needle/Sample/dist/assets/image_2_c7d4ca72-88d2-56cc-bac5-3279c4205178.glb
+info: → Compressing 0.0 MB: /Users/nemanja/Unity Projects/Needle/Library/Needle/Sample/dist/assets/image_3_c7d4ca72-88d2-56cc-bac5-3279c4205178.glb
+info: ⇄ Writing to /Users/nemanja/Unity Projects/Needle/Library/Needle/Sample/dist/assets/image_3_c7d4ca72-88d2-56cc-bac5-3279c4205178.glb
+info: ← Compressing done in 0.0 sec, 0.0 MB → 0.0 MB (GPU: 0.2 MB textures): image_3_c7d4ca72-88d2-56cc-bac5-3279c4205178.glb at /Users/nemanja/Unity Projects/Needle/Library/Needle/Sample/dist/assets/image_3_c7d4ca72-88d2-56cc-bac5-3279c4205178.glb
+info: → Compressing 0.0 MB: /Users/nemanja/Unity Projects/Needle/Library/Needle/Sample/dist/assets/image_4_c7d4ca72-88d2-56cc-bac5-3279c4205178.glb
+info: ⇄ Writing to /Users/nemanja/Unity Projects/Needle/Library/Needle/Sample/dist/assets/image_4_c7d4ca72-88d2-56cc-bac5-3279c4205178.glb
+info: ← Compressing done in 0.0 sec, 0.0 MB → 0.0 MB (GPU: 0.0 MB textures): image_4_c7d4ca72-88d2-56cc-bac5-3279c4205178.glb at /Users/nemanja/Unity Projects/Needle/Library/Needle/Sample/dist/assets/image_4_c7d4ca72-88d2-56cc-bac5-3279c4205178.glb
+info: → Compressing 3.1 MB: /Users/nemanja/Unity Projects/Needle/Library/Needle/Sample/dist/assets/image_0_84faf553-b1be-5379-9175-bbbe08acc790.glb
+info: ⇄ Writing to /Users/nemanja/Unity Projects/Needle/Library/Needle/Sample/dist/assets/image_0_84faf553-b1be-5379-9175-bbbe08acc790.glb
+info: ← Compressing done in 0.0 sec, 3.1 MB → 0.9 MB (GPU: 10.7 MB textures): image_0_84faf553-b1be-5379-9175-bbbe08acc790.glb at /Users/nemanja/Unity Projects/Needle/Library/Needle/Sample/dist/assets/image_0_84faf553-b1be-5379-9175-bbbe08acc790.glb
+info: → Compressing 0.3 MB: /Users/nemanja/Unity Projects/Needle/Library/Needle/Sample/dist/assets/image_1_84faf553-b1be-5379-9175-bbbe08acc790.glb
+info: ⇄ Writing to /Users/nemanja/Unity Projects/Needle/Library/Needle/Sample/dist/assets/image_1_84faf553-b1be-5379-9175-bbbe08acc790.glb
+info: ← Compressing done in 0.0 sec, 0.3 MB → 0.4 MB (GPU: 2.7 MB textures): image_1_84faf553-b1be-5379-9175-bbbe08acc790.glb at /Users/nemanja/Unity Projects/Needle/Library/Needle/Sample/dist/assets/image_1_84faf553-b1be-5379-9175-bbbe08acc790.glb
+info: → Compressing 0.1 MB: /Users/nemanja/Unity Projects/Needle/Library/Needle/Sample/dist/assets/image_2_84faf553-b1be-5379-9175-bbbe08acc790.glb
+info: ⇄ Writing to /Users/nemanja/Unity Projects/Needle/Library/Needle/Sample/dist/assets/image_2_84faf553-b1be-5379-9175-bbbe08acc790.glb
+info: ← Compressing done in 0.0 sec, 0.1 MB → 0.2 MB (GPU: 0.7 MB textures): image_2_84faf553-b1be-5379-9175-bbbe08acc790.glb at /Users/nemanja/Unity Projects/Needle/Library/Needle/Sample/dist/assets/image_2_84faf553-b1be-5379-9175-bbbe08acc790.glb
+info: → Compressing 0.0 MB: /Users/nemanja/Unity Projects/Needle/Library/Needle/Sample/dist/assets/image_3_84faf553-b1be-5379-9175-bbbe08acc790.glb
+info: ⇄ Writing to /Users/nemanja/Unity Projects/Needle/Library/Needle/Sample/dist/assets/image_3_84faf553-b1be-5379-9175-bbbe08acc790.glb
+info: ← Compressing done in 0.0 sec, 0.0 MB → 0.1 MB (GPU: 0.2 MB textures): image_3_84faf553-b1be-5379-9175-bbbe08acc790.glb at /Users/nemanja/Unity Projects/Needle/Library/Needle/Sample/dist/assets/image_3_84faf553-b1be-5379-9175-bbbe08acc790.glb
+info: → Compressing 0.0 MB: /Users/nemanja/Unity Projects/Needle/Library/Needle/Sample/dist/assets/image_4_84faf553-b1be-5379-9175-bbbe08acc790.glb
+info: ⇄ Writing to /Users/nemanja/Unity Projects/Needle/Library/Needle/Sample/dist/assets/image_4_84faf553-b1be-5379-9175-bbbe08acc790.glb
+info: ← Compressing done in 0.0 sec, 0.0 MB → 0.0 MB (GPU: 0.0 MB textures): image_4_84faf553-b1be-5379-9175-bbbe08acc790.glb at /Users/nemanja/Unity Projects/Needle/Library/Needle/Sample/dist/assets/image_4_84faf553-b1be-5379-9175-bbbe08acc790.glb
+info: → Compressing 0.4 MB: /Users/nemanja/Unity Projects/Needle/Library/Needle/Sample/dist/assets/image_0_cd25e306-b037-53db-ac31-e5145dd8b610.glb
+info: ⇄ Writing to /Users/nemanja/Unity Projects/Needle/Library/Needle/Sample/dist/assets/image_0_cd25e306-b037-53db-ac31-e5145dd8b610.glb
+info: ← Compressing done in 0.0 sec, 0.4 MB → 0.2 MB (GPU: 0.7 MB textures): image_0_cd25e306-b037-53db-ac31-e5145dd8b610.glb at /Users/nemanja/Unity Projects/Needle/Library/Needle/Sample/dist/assets/image_0_cd25e306-b037-53db-ac31-e5145dd8b610.glb
+info: → Compressing 0.0 MB: /Users/nemanja/Unity Projects/Needle/Library/Needle/Sample/dist/assets/image_1_cd25e306-b037-53db-ac31-e5145dd8b610.glb
+info: ⇄ Writing to /Users/nemanja/Unity Projects/Needle/Library/Needle/Sample/dist/assets/image_1_cd25e306-b037-53db-ac31-e5145dd8b610.glb
+info: ← Compressing done in 0.0 sec, 0.0 MB → 0.0 MB (GPU: 0.2 MB textures): image_1_cd25e306-b037-53db-ac31-e5145dd8b610.glb at /Users/nemanja/Unity Projects/Needle/Library/Needle/Sample/dist/assets/image_1_cd25e306-b037-53db-ac31-e5145dd8b610.glb
+info: → Compressing 0.0 MB: /Users/nemanja/Unity Projects/Needle/Library/Needle/Sample/dist/assets/image_2_cd25e306-b037-53db-ac31-e5145dd8b610.glb
+info: ⇄ Writing to /Users/nemanja/Unity Projects/Needle/Library/Needle/Sample/dist/assets/image_2_cd25e306-b037-53db-ac31-e5145dd8b610.glb
+info: ← Compressing done in 0.0 sec, 0.0 MB → 0.0 MB (GPU: 0.0 MB textures): image_2_cd25e306-b037-53db-ac31-e5145dd8b610.glb at /Users/nemanja/Unity Projects/Needle/Library/Needle/Sample/dist/assets/image_2_cd25e306-b037-53db-ac31-e5145dd8b610.glb
+info: → Compressing 0.1 MB: /Users/nemanja/Unity Projects/Needle/Library/Needle/Sample/dist/assets/image_0_da96e589-a211-580b-817f-ba1d44f4c826.glb
+info: ⇄ Writing to /Users/nemanja/Unity Projects/Needle/Library/Needle/Sample/dist/assets/image_0_da96e589-a211-580b-817f-ba1d44f4c826.glb
+info: ← Compressing done in 0.0 sec, 0.1 MB → 0.0 MB (GPU: 0.7 MB textures): image_0_da96e589-a211-580b-817f-ba1d44f4c826.glb at /Users/nemanja/Unity Projects/Needle/Library/Needle/Sample/dist/assets/image_0_da96e589-a211-580b-817f-ba1d44f4c826.glb
+info: → Compressing 0.0 MB: /Users/nemanja/Unity Projects/Needle/Library/Needle/Sample/dist/assets/image_1_da96e589-a211-580b-817f-ba1d44f4c826.glb
+info: ⇄ Writing to /Users/nemanja/Unity Projects/Needle/Library/Needle/Sample/dist/assets/image_1_da96e589-a211-580b-817f-ba1d44f4c826.glb
+info: ← Compressing done in 0.0 sec, 0.0 MB → 0.0 MB (GPU: 0.2 MB textures): image_1_da96e589-a211-580b-817f-ba1d44f4c826.glb at /Users/nemanja/Unity Projects/Needle/Library/Needle/Sample/dist/assets/image_1_da96e589-a211-580b-817f-ba1d44f4c826.glb
+info: → Compressing 0.0 MB: /Users/nemanja/Unity Projects/Needle/Library/Needle/Sample/dist/assets/image_2_da96e589-a211-580b-817f-ba1d44f4c826.glb
+info: ⇄ Writing to /Users/nemanja/Unity Projects/Needle/Library/Needle/Sample/dist/assets/image_2_da96e589-a211-580b-817f-ba1d44f4c826.glb
+info: ← Compressing done in 0.0 sec, 0.0 MB → 0.0 MB (GPU: 0.0 MB textures): image_2_da96e589-a211-580b-817f-ba1d44f4c826.glb at /Users/nemanja/Unity Projects/Needle/Library/Needle/Sample/dist/assets/image_2_da96e589-a211-580b-817f-ba1d44f4c826.glb
+info: → Compressing 0.3 MB: /Users/nemanja/Unity Projects/Needle/Library/Needle/Sample/dist/assets/image_0_ac4f7037-57b6-549d-b14f-c6e1f4a21b08.glb
+info: ⇄ Writing to /Users/nemanja/Unity Projects/Needle/Library/Needle/Sample/dist/assets/image_0_ac4f7037-57b6-549d-b14f-c6e1f4a21b08.glb
+info: ← Compressing done in 0.0 sec, 0.3 MB → 0.1 MB (GPU: 0.7 MB textures): image_0_ac4f7037-57b6-549d-b14f-c6e1f4a21b08.glb at /Users/nemanja/Unity Projects/Needle/Library/Needle/Sample/dist/assets/image_0_ac4f7037-57b6-549d-b14f-c6e1f4a21b08.glb
+info: → Compressing 0.0 MB: /Users/nemanja/Unity Projects/Needle/Library/Needle/Sample/dist/assets/image_1_ac4f7037-57b6-549d-b14f-c6e1f4a21b08.glb
+info: ⇄ Writing to /Users/nemanja/Unity Projects/Needle/Library/Needle/Sample/dist/assets/image_1_ac4f7037-57b6-549d-b14f-c6e1f4a21b08.glb
+info: ← Compressing done in 0.0 sec, 0.0 MB → 0.0 MB (GPU: 0.2 MB textures): image_1_ac4f7037-57b6-549d-b14f-c6e1f4a21b08.glb at /Users/nemanja/Unity Projects/Needle/Library/Needle/Sample/dist/assets/image_1_ac4f7037-57b6-549d-b14f-c6e1f4a21b08.glb
+info: → Compressing 0.0 MB: /Users/nemanja/Unity Projects/Needle/Library/Needle/Sample/dist/assets/image_2_ac4f7037-57b6-549d-b14f-c6e1f4a21b08.glb
+info: ⇄ Writing to /Users/nemanja/Unity Projects/Needle/Library/Needle/Sample/dist/assets/image_2_ac4f7037-57b6-549d-b14f-c6e1f4a21b08.glb
+info: ← Compressing done in 0.0 sec, 0.0 MB → 0.0 MB (GPU: 0.0 MB textures): image_2_ac4f7037-57b6-549d-b14f-c6e1f4a21b08.glb at /Users/nemanja/Unity Projects/Needle/Library/Needle/Sample/dist/assets/image_2_ac4f7037-57b6-549d-b14f-c6e1f4a21b08.glb
+info: → Compressing 0.8 MB: /Users/nemanja/Unity Projects/Needle/Library/Needle/Sample/dist/assets/image_0_6e3826d9-7d05-5139-9bc0-478ece74de53.glb
+info: ⇄ Writing to /Users/nemanja/Unity Projects/Needle/Library/Needle/Sample/dist/assets/image_0_6e3826d9-7d05-5139-9bc0-478ece74de53.glb
+info: ← Compressing done in 0.0 sec, 0.8 MB → 0.2 MB (GPU: 0.7 MB textures): image_0_6e3826d9-7d05-5139-9bc0-478ece74de53.glb at /Users/nemanja/Unity Projects/Needle/Library/Needle/Sample/dist/assets/image_0_6e3826d9-7d05-5139-9bc0-478ece74de53.glb
+info: → Compressing 0.1 MB: /Users/nemanja/Unity Projects/Needle/Library/Needle/Sample/dist/assets/image_1_6e3826d9-7d05-5139-9bc0-478ece74de53.glb
+info: ⇄ Writing to /Users/nemanja/Unity Projects/Needle/Library/Needle/Sample/dist/assets/image_1_6e3826d9-7d05-5139-9bc0-478ece74de53.glb
+info: ← Compressing done in 0.0 sec, 0.1 MB → 0.0 MB (GPU: 0.2 MB textures): image_1_6e3826d9-7d05-5139-9bc0-478ece74de53.glb at /Users/nemanja/Unity Projects/Needle/Library/Needle/Sample/dist/assets/image_1_6e3826d9-7d05-5139-9bc0-478ece74de53.glb
+info: → Compressing 0.0 MB: /Users/nemanja/Unity Projects/Needle/Library/Needle/Sample/dist/assets/image_2_6e3826d9-7d05-5139-9bc0-478ece74de53.glb
+info: ⇄ Writing to /Users/nemanja/Unity Projects/Needle/Library/Needle/Sample/dist/assets/image_2_6e3826d9-7d05-5139-9bc0-478ece74de53.glb
+info: ← Compressing done in 0.0 sec, 0.0 MB → 0.0 MB (GPU: 0.0 MB textures): image_2_6e3826d9-7d05-5139-9bc0-478ece74de53.glb at /Users/nemanja/Unity Projects/Needle/Library/Needle/Sample/dist/assets/image_2_6e3826d9-7d05-5139-9bc0-478ece74de53.glb
+info: → Compressing 0.0 MB: /Users/nemanja/Unity Projects/Needle/Library/Needle/Sample/dist/assets/image_0_787037bd-cb22-5901-bd06-15ebd1a0b8b0.glb
+info: ⇄ Writing to /Users/nemanja/Unity Projects/Needle/Library/Needle/Sample/dist/assets/image_0_787037bd-cb22-5901-bd06-15ebd1a0b8b0.glb
+info: ← Compressing done in 0.0 sec, 0.0 MB → 0.0 MB (GPU: 0.7 MB textures): image_0_787037bd-cb22-5901-bd06-15ebd1a0b8b0.glb at /Users/nemanja/Unity Projects/Needle/Library/Needle/Sample/dist/assets/image_0_787037bd-cb22-5901-bd06-15ebd1a0b8b0.glb
+info: → Compressing 0.0 MB: /Users/nemanja/Unity Projects/Needle/Library/Needle/Sample/dist/assets/image_1_787037bd-cb22-5901-bd06-15ebd1a0b8b0.glb
+info: ⇄ Writing to /Users/nemanja/Unity Projects/Needle/Library/Needle/Sample/dist/assets/image_1_787037bd-cb22-5901-bd06-15ebd1a0b8b0.glb
+info: ← Compressing done in 0.0 sec, 0.0 MB → 0.0 MB (GPU: 0.2 MB textures): image_1_787037bd-cb22-5901-bd06-15ebd1a0b8b0.glb at /Users/nemanja/Unity Projects/Needle/Library/Needle/Sample/dist/assets/image_1_787037bd-cb22-5901-bd06-15ebd1a0b8b0.glb
+info: → Compressing 0.0 MB: /Users/nemanja/Unity Projects/Needle/Library/Needle/Sample/dist/assets/image_2_787037bd-cb22-5901-bd06-15ebd1a0b8b0.glb
+info: ⇄ Writing to /Users/nemanja/Unity Projects/Needle/Library/Needle/Sample/dist/assets/image_2_787037bd-cb22-5901-bd06-15ebd1a0b8b0.glb
+info: ← Compressing done in 0.0 sec, 0.0 MB → 0.0 MB (GPU: 0.0 MB textures): image_2_787037bd-cb22-5901-bd06-15ebd1a0b8b0.glb at /Users/nemanja/Unity Projects/Needle/Library/Needle/Sample/dist/assets/image_2_787037bd-cb22-5901-bd06-15ebd1a0b8b0.glb
+info: → Compressing 0.2 MB: /Users/nemanja/Unity Projects/Needle/Library/Needle/Sample/dist/assets/image_0_0d63b3a6-1b1e-57af-8e34-53559704e882.glb
+info: ⇄ Writing to /Users/nemanja/Unity Projects/Needle/Library/Needle/Sample/dist/assets/image_0_0d63b3a6-1b1e-57af-8e34-53559704e882.glb
+info: ← Compressing done in 0.0 sec, 0.2 MB → 0.1 MB (GPU: 0.7 MB textures): image_0_0d63b3a6-1b1e-57af-8e34-53559704e882.glb at /Users/nemanja/Unity Projects/Needle/Library/Needle/Sample/dist/assets/image_0_0d63b3a6-1b1e-57af-8e34-53559704e882.glb
+info: → Compressing 0.0 MB: /Users/nemanja/Unity Projects/Needle/Library/Needle/Sample/dist/assets/image_1_0d63b3a6-1b1e-57af-8e34-53559704e882.glb
+info: ⇄ Writing to /Users/nemanja/Unity Projects/Needle/Library/Needle/Sample/dist/assets/image_1_0d63b3a6-1b1e-57af-8e34-53559704e882.glb
+info: ← Compressing done in 0.0 sec, 0.0 MB → 0.0 MB (GPU: 0.2 MB textures): image_1_0d63b3a6-1b1e-57af-8e34-53559704e882.glb at /Users/nemanja/Unity Projects/Needle/Library/Needle/Sample/dist/assets/image_1_0d63b3a6-1b1e-57af-8e34-53559704e882.glb
+info: → Compressing 0.0 MB: /Users/nemanja/Unity Projects/Needle/Library/Needle/Sample/dist/assets/image_2_0d63b3a6-1b1e-57af-8e34-53559704e882.glb
+info: ⇄ Writing to /Users/nemanja/Unity Projects/Needle/Library/Needle/Sample/dist/assets/image_2_0d63b3a6-1b1e-57af-8e34-53559704e882.glb
+info: ← Compressing done in 0.0 sec, 0.0 MB → 0.0 MB (GPU: 0.0 MB textures): image_2_0d63b3a6-1b1e-57af-8e34-53559704e882.glb at /Users/nemanja/Unity Projects/Needle/Library/Needle/Sample/dist/assets/image_2_0d63b3a6-1b1e-57af-8e34-53559704e882.glb
+info: → Compressing 0.0 MB: /Users/nemanja/Unity Projects/Needle/Library/Needle/Sample/dist/assets/image_0_0575600b-10ee-5acd-ab01-b56be9fe1825.glb
+info: ⇄ Writing to /Users/nemanja/Unity Projects/Needle/Library/Needle/Sample/dist/assets/image_0_0575600b-10ee-5acd-ab01-b56be9fe1825.glb
+info: ← Compressing done in 0.0 sec, 0.0 MB → 0.0 MB (GPU: 0.1 MB textures): image_0_0575600b-10ee-5acd-ab01-b56be9fe1825.glb at /Users/nemanja/Unity Projects/Needle/Library/Needle/Sample/dist/assets/image_0_0575600b-10ee-5acd-ab01-b56be9fe1825.glb
+info: → Loaded compressed file from cache: "mesh_lod_0_15636733394981922192_30ef09cef12f14bc3a630a46b714029f.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_15636733394981922192_30ef09cef12f14bc3a630a46b714029f.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_15636733394981922192_30ef09cef12f14bc3a630a46b714029f.glb"
+info: → Loaded compressed file from cache: "mesh_lod_3_15636733394981922192_30ef09cef12f14bc3a630a46b714029f.glb"
+info: → Loaded compressed file from cache: "mesh_lod_4_15636733394981922192_30ef09cef12f14bc3a630a46b714029f.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_15636733394981922192_6e9c5d98d23474e279a4364cadf6cfd0.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_15636733394981922192_6e9c5d98d23474e279a4364cadf6cfd0.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_15636733394981922192_6e9c5d98d23474e279a4364cadf6cfd0.glb"
+info: → Loaded compressed file from cache: "mesh_lod_3_15636733394981922192_6e9c5d98d23474e279a4364cadf6cfd0.glb"
+info: → Loaded compressed file from cache: "mesh_lod_4_15636733394981922192_6e9c5d98d23474e279a4364cadf6cfd0.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_14437759145536148169_2cffbc3e1aa4b4e9281dcda4a91080aa.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_14437759145536148169_2cffbc3e1aa4b4e9281dcda4a91080aa.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_14437759145536148169_2cffbc3e1aa4b4e9281dcda4a91080aa.glb"
+info: → Loaded compressed file from cache: "mesh_lod_3_14437759145536148169_2cffbc3e1aa4b4e9281dcda4a91080aa.glb"
+
+<--- Last few GCs --->
+
+[22279:0x128008000]    20688 ms: Scavenge 207.4 (243.9) -> 207.4 (243.9) MB, 17.33 / 0.00 ms  (average mu = 0.927, current mu = 0.925) allocation failure; 
+[22279:0x128008000]    20900 ms: Mark-Compact 399.4 (436.0) -> 303.4 (340.0) MB, 104.54 / 0.04 ms  (+ 0.1 ms in 2 steps since start of marking, biggest step 0.1 ms, walltime since start of marking 559 ms) (average mu = 0.865, current mu = 0.854) finalize 
+
+<--- JS stacktrace --->
+
+
+FATAL ERROR: invalid table size Allocation failed - JavaScript heap out of memory
+
+ 1: 0x100782114 node::Abort() [/usr/local/bin/node]
+
+ 2: 0x1007822fc node::ModifyCodeGenerationFromStrings(v8::Local<v8::Context>, v8::Local<v8::Value>, bool) [/usr/local/bin/node]
+
+ 3: 0x100909048 v8::internal::V8::FatalProcessOutOfMemory(v8::internal::Isolate*, char const*, v8::OOMDetails const&) [/usr/local/bin/node]
+
+ 4: 0x100add82c v8::internal::Heap::GarbageCollectionReasonToString(v8::internal::GarbageCollectionReason) [/usr/local/bin/node]
+
+ 5: 0x100d7f874 v8::internal::Handle<v8::internal::NumberDictionary> v8::internal::HashTable<v8::internal::NumberDictionary, v8::internal::NumberDictionaryShape>::EnsureCapacity<v8::internal::LocalIsolate>(v8::internal::LocalIsolate*, v8::internal::Handle<v8::internal::NumberDictionary>, int, v8::internal::AllocationType) [/usr/local/bin/node]
+
+ 6: 0x100d800cc v8::internal::Handle<v8::internal::NumberDictionary> v8::internal::Dictionary<v8::internal::NumberDictionary, v8::internal::NumberDictionaryShape>::Add<v8::internal::Isolate>(v8::internal::Isolate*, v8::internal::Handle<v8::internal::NumberDictionary>, unsigned int, v8::internal::Handle<v8::internal::Object>, v8::internal::PropertyDetails, v8::internal::InternalIndex*) [/usr/local/bin/node]
+
+ 7: 0x100c6e9ac v8::internal::(anonymous namespace)::DictionaryElementsAccessor::AddImpl(v8::internal::Handle<v8::internal::JSObject>, unsigned int, v8::internal::Handle<v8::internal::Object>, v8::internal::PropertyAttributes, unsigned int) [/usr/local/bin/node]
+
+ 8: 0x100c6d804 v8::internal::(anonymous namespace)::ElementsAccessorBase<v8::internal::(anonymous namespace)::DictionaryElementsAccessor, v8::internal::(anonymous namespace)::ElementsKindTraits<(v8::internal::ElementsKind)13>>::Add(v8::internal::Handle<v8::internal::JSObject>, unsigned int, v8::internal::Handle<v8::internal::Object>, v8::internal::PropertyAttributes, unsigned int) [/usr/local/bin/node]
+
+ 9: 0x100d18584 v8::internal::JSObject::AddDataElement(v8::internal::Handle<v8::internal::JSObject>, unsigned int, v8::internal::Handle<v8::internal::Object>, v8::internal::PropertyAttributes) [/usr/local/bin/node]
+
+10: 0x100d91924 v8::internal::Object::AddDataProperty(v8::internal::LookupIterator*, v8::internal::Handle<v8::internal::Object>, v8::internal::PropertyAttributes, v8::Maybe<v8::internal::ShouldThrow>, v8::internal::StoreOrigin, v8::internal::EnforceDefineSemantics) [/usr/local/bin/node]
+
+11: 0x100d903b4 v8::internal::Object::SetProperty(v8::internal::LookupIterator*, v8::internal::Handle<v8::internal::Object>, v8::internal::StoreOrigin, v8::Maybe<v8::internal::ShouldThrow>) [/usr/local/bin/node]
+
+12: 0x100ea6d68 v8::internal::Runtime::SetObjectProperty(v8::internal::Isolate*, v8::internal::Handle<v8::internal::Object>, v8::internal::Handle<v8::internal::Object>, v8::internal::Handle<v8::internal::Object>, v8::internal::StoreOrigin, v8::Maybe<v8::internal::ShouldThrow>) [/usr/local/bin/node]
+
+13: 0x100b84ba4 v8::internal::Runtime_KeyedStoreIC_Slow(int, unsigned long*, v8::internal::Isolate*) [/usr/local/bin/node]
+
+14: 0x1011fcc44 Builtins_CEntry_Return1_ArgvOnStack_NoBuiltinExit [/usr/local/bin/node]
+
+15: 0x106223e1c 
+
+16: 0x10117250c Builtins_JSEntryTrampoline [/usr/local/bin/node]
+
+17: 0x1011721f4 Builtins_JSEntry [/usr/local/bin/node]
+
+18: 0x100a4acbc v8::internal::(anonymous namespace)::Invoke(v8::internal::Isolate*, v8::internal::(anonymous namespace)::InvokeParams const&) [/usr/local/bin/node]
+
+19: 0x100a4a108 v8::internal::Execution::Call(v8::internal::Isolate*, v8::internal::Handle<v8::internal::Object>, v8::internal::Handle<v8::internal::Object>, int, v8::internal::Handle<v8::internal::Object>*) [/usr/local/bin/node]
+
+20: 0x100be77c0 v8::internal::JsonStringifier::ApplyToJsonFunction(v8::internal::Handle<v8::internal::Object>, v8::internal::Handle<v8::internal::Object>) [/usr/local/bin/node]
+
+21: 0x100bec1d4 v8::internal::JsonStringifier::Result v8::internal::JsonStringifier::Serialize_<false>(v8::internal::Handle<v8::internal::Object>, bool, v8::internal::Handle<v8::internal::Object>) [/usr/local/bin/node]
+
+22: 0x100be6d58 v8::internal::JsonStringifier::Stringify(v8::internal::Handle<v8::internal::Object>, v8::internal::Handle<v8::internal::Object>, v8::internal::Handle<v8::internal::Object>) [/usr/local/bin/node]
+
+23: 0x100be6c70 v8::internal::JsonStringify(v8::internal::Isolate*, v8::internal::Handle<v8::internal::Object>, v8::internal::Handle<v8::internal::Object>, v8::internal::Handle<v8::internal::Object>) [/usr/local/bin/node]
+
+24: 0x100997554 v8::internal::Builtin_JsonStringify(int, unsigned long*, v8::internal::Isolate*) [/usr/local/bin/node]
+
+25: 0x1011fcb24 Builtins_CEntry_Return1_ArgvOnStack_BuiltinExit [/usr/local/bin/node]
+26: 0x1061ca0e8 
+27: 0x1061e9c64 
+28: 0x10630acb0 
+
+29: 0x1011743e4 Builtins_InterpreterEntryTrampoline [/usr/local/bin/node]
+
+30: 0x1011ab210 Builtins_AsyncFunctionAwaitResolveClosure [/usr/local/bin/node]
+
+31: 0x101258fb8 Builtins_PromiseFulfillReactionJob [/usr/local/bin/node]
+
+32: 0x10119ab94 Builtins_RunMicrotasks [/usr/local/bin/node]
+
+33: 0x1011723f4 Builtins_JSRunMicrotasksEntry [/usr/local/bin/node]
+
+34: 0x100a4ac94 v8::internal::(anonymous namespace)::Invoke(v8::internal::Isolate*, v8::internal::(anonymous namespace)::InvokeParams const&) [/usr/local/bin/node]
+
+35: 0x100a4b180 v8::internal::(anonymous namespace)::InvokeWithTryCatch(v8::internal::Isolate*, v8::internal::(anonymous namespace)::InvokeParams const&) [/usr/local/bin/node]
+
+36: 0x100a4b35c v8::internal::Execution::TryRunMicrotasks(v8::internal::Isolate*, v8::internal::MicrotaskQueue*) [/usr/local/bin/node]
+
+37: 0x100a72418 v8::internal::MicrotaskQueue::RunMicrotasks(v8::internal::Isolate*) [/usr/local/bin/node]
+
+38: 0x100a72bb4 v8::internal::MicrotaskQueue::PerformCheckpoint(v8::Isolate*) [/usr/local/bin/node]
+
+39: 0x1006b4c64 node::InternalCallbackScope::Close() [/usr/local/bin/node]
+
+40: 0x1006b47c4 node::InternalCallbackScope::~InternalCallbackScope() [/usr/local/bin/node]
+
+41: 0x1007860fc node::fs::FileHandle::CloseReq::Resolve() [/usr/local/bin/node]
+
+42: 0x1007a2018 node::fs::FileHandle::ClosePromise()::$_0::__invoke(uv_fs_s*) [/usr/local/bin/node]
+
+43: 0x10077d210 node::MakeLibuvRequestCallback<uv_fs_s, void (*)(uv_fs_s*)>::Wrapper(uv_fs_s*) [/usr/local/bin/node]
+
+44: 0x101150d4c uv__work_done [/usr/local/bin/node]
+
+45: 0x10115479c uv__async_io [/usr/local/bin/node]
+
+46: 0x101166874 uv__io_poll [/usr/local/bin/node]
+
+47: 0x101154d60 uv_run [/usr/local/bin/node]
+
+48: 0x1006b5754 node::SpinEventLoopInternal(node::Environment*) [/usr/local/bin/node]
+
+49: 0x1007c5138 node::NodeMainInstance::Run(node::ExitCode*, node::Environment*) [/usr/local/bin/node]
+
+50: 0x1007c4ed4 node::NodeMainInstance::Run() [/usr/local/bin/node]
+
+51: 0x10074d60c node::Start(int, char**) [/usr/local/bin/node]
+
+52: 0x188ac8274 start [/usr/lib/dyld]
+
+[needle-buildpipeline] finished with errors
+[needle-buildinfo] - Collect files in /Users/nemanja/Unity Projects/Needle/Library/Needle/Sample/dist
+[needle-buildinfo] - Collect files in assets
+[needle-buildinfo] - Collect files in include
+[needle-buildinfo] - Collect files in include/draco
+[needle-buildinfo] - Collect files in include/ktx2
+[needle-buildinfo] - Collect files in include/needle
+[needle-buildinfo] - Collect files in include/three
+[needle-buildinfo] - Collected 104 files (233.13 MB). Write info to "/Users/nemanja/Unity Projects/Needle/Library/Needle/Sample/dist/needle.buildinfo.json"
